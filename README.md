@@ -7,8 +7,8 @@ An experimental implementation of [Elastic tabstops](http://nickgravgaard.com/el
 
 ## Known limitations and issues
 
-1.	Cursor positions may be in disorder. Workaround: Edit the line can force
-	Atom to rerender it
+1.	~~Cursor positions may be in disorder. Workaround: Edit the line can force
+	Atom to rerender it~~ (fixed)
 2.	Move cursor up and down become weird... Plan to solve this in the future
 3.	Currently we just monkey patch private method to modify the styles
 	of the dom nodes, which is not very efficient

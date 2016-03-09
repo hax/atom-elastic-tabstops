@@ -1,4 +1,4 @@
 # TODO
 
-- [ ] fix cursor position
+- [X] fix cursor position
 - [ ] shortcut key to change alignment of current column block
