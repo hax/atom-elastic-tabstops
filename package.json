@@ -1,7 +1,7 @@
 {
   "name": "elastic-tabstops",
   "main": "./lib/elastic-tabstops",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Elastic Tabstops for Atom",
   "keywords": [
     "Elastic Tabstops",
