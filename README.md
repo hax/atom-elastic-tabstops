@@ -1,5 +1,7 @@
 # elastic-tabstops package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hax/atom-elastic-tabstops.svg)](https://greenkeeper.io/)
+
 An experimental implementation of [Elastic tabstops](http://nickgravgaard.com/elastic-tabstops/) for Atom
 
 ![atom-elastic-tabstops-screenshot](https://cloud.githubusercontent.com/assets/159840/13506337/a5680002-e1b8-11e5-926c-d3627e4c20fc.gif)
