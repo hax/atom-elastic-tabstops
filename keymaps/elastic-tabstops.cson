@@ -9,3 +9,6 @@
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
   'ctrl-alt-t': 'elastic-tabstops:toggle'
+'atom-text-editor.elastic-tabstops':
+  'alt-up': 'elastic-tabstops:move-up'
+  'alt-down': 'elastic-tabstops:move-down'
