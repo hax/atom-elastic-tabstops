@@ -1,4 +1,4 @@
-Copyright (c) 2016 HE Shi-Jun
+Copyright (c) 2016, 2017 HE Shi-Jun
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
