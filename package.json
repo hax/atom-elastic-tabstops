@@ -12,5 +12,22 @@
   "engines": {
     "atom": ">=1.19.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-ts-transpiler": "^1.2.4",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.22.1"
+  },
+  "atomTranspilers": [
+    {
+      "transpiler": "atom-ts-transpiler",
+      "glob": "{!(node_modules)/**/,}*.ts?(x)",
+      "options": {
+        "compilerOptions": { },
+        "cacheKeyFiles": [ "tsconfig.json" ],
+        "verbose": false
+      }
+    }
+  ]
 }
