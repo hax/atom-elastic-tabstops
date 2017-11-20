@@ -1,5 +1,3 @@
-'use babel'
-
 export function query(relativeSelectors) {
 	if (typeof this.query === 'function' && this.query !== query) {
 		return this.query(relativeSelectors)
