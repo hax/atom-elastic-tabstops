@@ -1,7 +1,7 @@
 {
   "name": "elastic-tabstops",
   "main": "./lib/elastic-tabstops",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Elastic Tabstops for Atom",
   "keywords": [
     "Elastic Tabstops",
@@ -24,8 +24,10 @@
       "transpiler": "atom-ts-transpiler",
       "glob": "{!(node_modules)/**/,}*.ts?(x)",
       "options": {
-        "compilerOptions": { },
-        "cacheKeyFiles": [ "tsconfig.json" ],
+        "compilerOptions": {},
+        "cacheKeyFiles": [
+          "tsconfig.json"
+        ],
         "verbose": false
       }
     }
