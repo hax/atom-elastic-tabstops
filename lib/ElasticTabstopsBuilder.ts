@@ -21,8 +21,8 @@ export class ElasticTabstops<Cell> {
 }
 
 export default class ElasticTabstopsBuilder<Cell> {
-	private readonly blocks: Block<Cell>[]
-	private readonly index: Index2D
+	private readonly blocks: Block<Cell>[] = []
+	private readonly index: Index2D = []
 	private readonly tabstops = new ElasticTabstops(this.blocks, this.index)
 	private _line = -1
 	private _column = -1
